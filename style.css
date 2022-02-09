@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    color: whitesmoke;
+    background-image: url(./img/banniere.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:slategray;
+}
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#tout {
+    background-image: url(./img/techno.jpg);
+    background-position: center;
+    
+}
+.gris {
+    background-color: slategray;
+    text-align: center;
+    
+}
+.bloc {
+    padding: 3vh;
+}
+#blocexp {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    margin-right: 4vh;
+    margin-bottom: 3vh;
+}
+.card img {
+    max-height: 25vh;
+}
+.card-body {
+    max-height: 40vh;
+}
+.noir {
+    padding: 2vh;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.trois {
+    text-align: center;
+    width: 25%;
+    border: 1px solid black;
+}
+
+.card-title {
+    text-align: center;
+}
+.list-group-item {
+    text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #blocun {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #blocdeux {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
