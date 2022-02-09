@@ -5,7 +5,7 @@
 }
 header {
     color: whitesmoke;
-    background-image: url(./img/banniere.jpg);
+    background-image: url(./img/banniere1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 30vh;
@@ -44,10 +44,10 @@ header {
     margin-bottom: 3vh;
 }
 .card img {
-    max-height: 25vh;
+    height: 150px;
 }
 .card-body {
-    max-height: 40vh;
+    height: 325px;
 }
 .noir {
     padding: 2vh;
