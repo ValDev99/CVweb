@@ -1,8 +1,24 @@
+/* TOUT */
 * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
+#tout {
+    background-image: url(./img/techno.jpg);
+    background-position: center;
+    
+}
+.noir {
+    padding: 2vh;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+/* FIN TOUT */
+
+/* HEADER  */
 header {
     color: whitesmoke;
     background-image: url(./img/banniere1.jpg);
@@ -20,18 +36,48 @@ header {
     display: flex;
     justify-content: space-around;
 }
-#tout {
-    background-image: url(./img/techno.jpg);
-    background-position: center;
-    
+/* FIN HEADER  */
+
+/* PRESENTATION  */
+.presen {
+    display: flex;
+    justify-content: flex-start;
+    height: 50vh;
+}
+.photo img{
+    padding: 2vh;
+    width: 200px;
+    height: 300px;
+}
+.bonjour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+.logoinfo {
+    display: flex;  
+}
+.logos {
+    margin-right: 2vh;
+}
+/* FIN PRESENTATION  */
+
+/* FORMATION  */
+.bloc {
+    padding: 3vh;
 }
 .gris {
     background-color: slategray;
     text-align: center;
     
 }
-.bloc {
-    padding: 3vh;
+.trois {
+    text-align: center;
+    width: 25%;
+    border: 1px solid black;
 }
 #blocexp {
     margin-top: 3vh;
@@ -42,24 +88,13 @@ header {
 .card {
     margin-right: 4vh;
     margin-bottom: 3vh;
+    background-color:lightslategray;
 }
 .card img {
     height: 150px;
 }
 .card-body {
     height: 325px;
-}
-.noir {
-    padding: 2vh;
-    background-color: whitesmoke;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-}
-.trois {
-    text-align: center;
-    width: 25%;
-    border: 1px solid black;
 }
 
 .card-title {
@@ -68,8 +103,37 @@ header {
 .list-group-item {
     text-align: center;
 }
+.forma {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+/* FIN FORMATION  */
+.contact {
+    margin-top: 2vh;
+}
 
+/* FOOTER  */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: slategray;
+}
+#reseaux img {
+    width: 70px;
+    height: 70px;
+}
+#reseaux {
+    margin-top: 3vh;
+    width: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* FIN FOOTER  */
 
 
 
