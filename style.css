@@ -170,12 +170,6 @@ header {
     flex-wrap: wrap;
     align-items: center;
 }
-#dos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
 /* FIN CENTRE INTERETS */
 
 /* FOOTER  */
@@ -225,15 +219,15 @@ footer {
         border: 1px solid black;
         margin-bottom: 1.5vh;
     }
-    #blocun {
+    .noir {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
     }
-    #blocdeux {
+    .photo {
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+    }
+    .noir img {
+        width: 100%;
+        height: 100%;
     }
     .card {
         margin-bottom: 3vh;
@@ -256,9 +250,10 @@ footer {
         background-color: whitesmoke;
     }
     #reseaux {
-        width: 40vh;
+        width: 100%;
     }
     #reseaux img {
-        width: 10vh;
+        margin: 0;
+        margin-left: auto;
     }
 }
