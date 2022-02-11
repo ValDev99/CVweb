@@ -5,7 +5,11 @@
     box-sizing: border-box;
 }
 #tout {
-    background-color:dimgray; 
+    background-color:#1560BD;
+
+    /* background-image: url(./img/techno.jpg); */
+    /* background-position: center; */
+    
 }
 .noir {
     padding: 2vh;
@@ -13,7 +17,6 @@
     color: black;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 /* FIN TOUT */
 
@@ -31,12 +34,6 @@ header {
     align-items: center;
     background-color:slategray;
 }
-#nav {
-    z-index: 1000;
-    width: 100%;
-    position: sticky;
-    top: 0;
-}
 .navbar-nav {
     width: 100%;
     display: flex;
@@ -48,6 +45,7 @@ header {
 .presen {
     display: flex;
     justify-content: flex-start;
+    height: 50vh;
 }
 .photo img{
     padding: 2vh;
@@ -72,7 +70,7 @@ header {
 
 /* FORMATION  */
 .bloc {
-    padding: 5vh;
+    padding: 3vh;
 }
 .gris {
     background-color:#CECECE;
@@ -111,95 +109,31 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
-#formations {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 /* FIN FORMATION  */
 .contact {
     margin-top: 2vh;
 }
-/* COMPETENCES  */
-#compet {
-    display: flex;
-    flex-direction: column;
-    
-}
-#compet img {
-    width: 90px;
-    height: 90px;
-}
-.one {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.two {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-#logocss {
-    width: 65px;
-}
-#logooffice {
-    width: 130px;
-    height: 120px;
-}
-/* FIN COMPETENCES */
-
-/* CENTRE INTERETS */
-
-.inter {
-    width: 100%;
-    font-size: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-}
-.pic img {
-    max-width: 150px;
-}
-#dos img {
-    max-width: 150px;
-}
-.pic {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-}
-#dos {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
-}
-/* FIN CENTRE INTERETS */
 
 /* FOOTER  */
 footer {
-    background-image: url(./img/banniere3.jpg);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* background-color: #CECECE; */
+    height: 35vh;
+    background-color: #CECECE;
 }
 .droits {
-    margin: 2rem;
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 1.5rem;
 }
 #reseaux img {
     width: 65px;
     height: 60px;
-    margin: 5vh;
 }
 #reseaux {
-    width: max-content;
     margin-top: 3vh;
+    width: 100vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -211,20 +145,6 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-    
-    header {
-        height: 100%;
-    }
-    .bloc {
-        padding: 1vh;
-        margin-bottom: 5vh;
-    }
-    .trois{
-        text-align: center;
-        width: 100%;
-        border: 1px solid black;
-        margin-bottom: 1.5vh;
-    }
     #blocun {
         width: 100%;
         display: flex;
@@ -234,31 +154,5 @@ footer {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-    }
-    .card {
-        margin-bottom: 3vh;
-        margin-right: 0;
-    }
-    .card-body {
-        height: auto;
-    }
-    .one {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        margin-bottom: 5vh;
-    }
-    footer {
-        margin-top: -7vh;
-        color: whitesmoke;
-    }
-    footer img {
-        background-color: whitesmoke;
-    }
-    #reseaux {
-        width: 40vh;
-    }
-    #reseaux img {
-        width: 10vh;
     }
 }
