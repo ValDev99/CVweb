@@ -171,7 +171,12 @@ header {
     align-items: center;
 }
 /* FIN CENTRE INTERETS */
+/* AVIS  */
+#form{
+    background-color:slategray;
+}
 
+/* FIN AVIS  */
 /* FOOTER  */
 footer {
     background-image: url(./img/banniere3.jpg);
